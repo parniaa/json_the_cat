@@ -2,7 +2,6 @@ const request = require('request');
 const BREED_NOT_FOUND = "the mentioned breed not found in our database";
 
 const uriPath = "https://api.thecatapi.com/v1/breeds/search?q=";
-// breedName = uriPath + breedName;
 
 const fetchBreedDescription = function(breedName, callback) {
 
